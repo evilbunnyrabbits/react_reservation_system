@@ -81,5 +81,7 @@ test:
 production:
   <<: *default
   database: back_end_production
+#  username: root
+#  password: chocolate100X
   username: back_end
   password: <%= ENV['BACK_END_DATABASE_PASSWORD'] %>
